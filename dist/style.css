@@ -1,0 +1,106 @@
+/*Done by Nahian36*/
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+#navbar{
+    position: fixed;
+    width: 18.8em;
+    height: 100%;
+    border-right: 3px solid rgb(146, 136, 136);
+}
+
+#navbar>ul{
+    height: 89%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+a{
+    color: black;
+}
+/*Done by Nahian36*/
+.nav-link{
+    display: block;
+    text-decoration: none;
+    block-size: 48px;
+    font-size: 15px;
+    border-top: 1px solid black;
+    padding-left: 2em;
+    opacity: 0.8;
+    line-height: 48px;
+}
+
+#nav-head{
+    padding: 0.8em 1.1em;
+    font-size: 28px;
+    font-weight: 20px;
+}
+
+#main-doc{
+    display: block;
+    position: absolute;
+    margin-left: 19.2em;
+    padding: 32px;
+    line-height: 27px;
+}
+
+#main-doc>section>header{
+    font-size: 29px;
+    padding-top: 12px;
+}
+
+p{
+    font-size: 15px;
+    margin-left: 14px;
+    margin-right: 3px;
+}
+
+section>ul>li{
+    font-size: 15px;
+    margin-left: 36px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+#sub-list{
+    margin-left: 64px;
+}
+/*Done by Nahian36*/
+#code{
+    display: block;
+    background-color: #f7f7f7;
+    margin-left: 27px;
+    margin-right: 20px;
+    padding: 15px;
+    line-height: 22px;
+    border-radius: 6px;
+}
+
+@media (max-width: 900px){
+    #navbar{
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        max-height: 200px;
+        z-index: 1;
+    }
+
+    #navbar>ul{
+        height: 89%;
+        padding: 0;
+        margin: 0;
+        border: 3.5px solid black;
+        background-color: white;
+    }
+
+    #main-doc{
+        margin: 260px 0px 0px 0px;
+    }
+}
+/*Done by Nahian36*/
